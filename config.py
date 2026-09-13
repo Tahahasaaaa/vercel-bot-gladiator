@@ -1,7 +1,7 @@
 import os
 
 # توکن ربات — فقط از Environment Variable خوانده می‌شود (هرگز مقدار پیش‌فرض هاردکد نکن!)
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = "8955432875:AAGcFxi1Bfaj4sXrgmAPpbeEd7wLXFJV9bo"
 if not BOT_TOKEN:
     raise RuntimeError(
         "متغیر محیطی BOT_TOKEN تنظیم نشده است. "
